@@ -1,8 +1,9 @@
 # http-echo-server-docker
 
-A quickly dockerized version of [htpt-echo-server] that you can deploy to k8s
-clusters or run through docker.  I built it for debugging and figured I'd push
-it up.  You can use my image if you want:
+A quickly dockerized version of
+[http-echo-server](https://github.com/watson/http-echo-server/pulse) that you
+can deploy to k8s clusters or run through docker.  I built it for debugging and
+figured I'd push it up.  You can use my image if you want:
 
 ```bash
 docker run freedomben/http-echo-server
